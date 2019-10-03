@@ -50,7 +50,7 @@
   
   /* When the checkbox is checked, add a blue background */
   .chkbx-container input:checked ~ .checkmark {
-    background-color: #2196F3;
+    background-color: #1869bf;
   }
   
   /* Create the checkmark/indicator (hidden when not checked) */
@@ -124,7 +124,7 @@
 
 /* When the radio is checked, add a blue background */
 .radio-container input:checked ~ .radio-checkmark {
-  background-color: #2196F3;
+  background-color: #1869bf;
   border-radius: 50%;
 }
 
@@ -185,4 +185,8 @@ a {
 
 .btn-border{
   border: 2px solid;
+}
+
+.progress-bar{
+  background-color: #1869bf;
 }
