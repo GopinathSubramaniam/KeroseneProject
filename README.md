@@ -49,3 +49,10 @@ configuration relevant for your application.
 The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) (v5) CSS
 framework by default. You can, however, replace it with any other library or
 custom styles.
+
+## Run Previously Developed Application
+
+1. Go to the root project folder
+2. Run `composer install` to download all dependencies
+3. Run `.\bin\cake server` to start the server
+
