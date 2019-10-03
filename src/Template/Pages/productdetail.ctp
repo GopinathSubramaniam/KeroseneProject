@@ -131,20 +131,137 @@ endif;
          <hr />
          <div class="col-md-12">
             <h4>Specifications</h4>
-            <table class="table table-sm">
+            <table class="table table-sm table-striped">
                <tr>
-                  <td>Brand</td><td>Crown</td>
+                  <td>Brand</td>
+                  <td>Crown</td>
                </tr>
                <tr>
-                  <td>Assembled Product Weight</td><td>2 lbs</td>
+                  <td>Assembled Product Weight</td>
+                  <td>2 lbs</td>
                </tr>
                <tr>
-                  <td>Condition</td><td>New</td>
+                  <td>Condition</td>
+                  <td>New</td>
                </tr>
                <tr>
-                  <td>Assembled Product Dimensions (L x W x H)</td><td>6.88 x 2.39 x 4.59 Inches</td>
+                  <td>Assembled Product Dimensions (L x W x H)</td>
+                  <td>6.88 x 2.39 x 4.59 Inches</td>
                </tr>
             </table>
+         </div>
+         <hr />
+         <div class="col-md-12">
+            <h4>Customer Reviews</h4>
+            <div class="row">
+
+               <div class="col-md-6">
+                  <font size="8">4.5</font>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star-half-alt"></span>
+                  <span class="far fa-star"></span>
+               </div>
+               <div class="col-md-6">
+                  <div class="row">
+                     <div class="col-2">5 Stars </div>
+                     <div class="col-6 vert-center">
+                        <div class="progress" style="height: 5px;">
+                           <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </div>
+                     <div class="col-">
+                        <font style="font-size: 80%;">10</font>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-2">4 Stars </div>
+                     <div class="col-6 vert-center">
+                        <div class="progress" style="height: 5px;">
+                           <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </div>
+                     <div class="col-">
+                        <font style="font-size: 80%;">2</font>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-2">3 Stars </div>
+                     <div class="col-6 vert-center">
+                        <div class="progress" style="height: 5px;">
+                           <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </div>
+                     <div class="col-">
+                        <font style="font-size: 80%;">2</font>
+                     </div>
+                  </div>
+                  
+                  <div class="row">
+                     <div class="col-2">2 Stars </div>
+                     <div class="col-6 vert-center">
+                        <div class="progress" style="height: 5px;">
+                           <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </div>
+                     <div class="col-">
+                        <font style="font-size: 80%;">1</font>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-2">1 Star </div>
+                     <div class="col-6 vert-center">
+                        <div class="progress" style="height: 5px;">
+                           <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </div>
+                     <div class="col-">
+                        <font style="font-size: 80%;">3</font>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-">
+               <button type="button" class="btn btn-outline-dark rounded"><i class="fas fa-list-ul"></i> See All
+                  Reviews</button>
+               <button type="button" class="btn btn-primary rounded"><i class="fas fa-pencil-alt"></i> Write
+                  Review</button>
+            </div>
+         </div>
+         <hr />
+         <div class="col-md-12">
+            <p>5 of 5 Reviews</p>
+            <div>
+               <p>It is a good product</p>
+               <small>Gopinath, Nov 03, 2019</small>
+               <hr />
+            </div>
+            <div>
+               <p>It is a good product</p>
+               <small>Gopinath, Nov 03, 2019</small>
+               <hr />
+            </div>
+            <div>
+               <p>It is a good product</p>
+               <small>Gopinath, Nov 03, 2019</small>
+               <hr />
+            </div>
+            <div>
+               <p>It is a good product</p>
+               <small>Gopinath, Nov 03, 2019</small>
+               <hr />
+            </div>
+            <div>
+               <p>It is a good product</p>
+               <small>Gopinath, Nov 03, 2019</small>
+               <hr />
+            </div>
          </div>
          <!-- /.row -->
       </div>
