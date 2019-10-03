@@ -85,10 +85,6 @@ endif;
             </ol>
          </nav>
          <!-- Portfolio Item Heading -->
-         <h1 class="my-4">Crown Kerosene,
-            <small>Gallon</small>
-         </h1>
-
          <!-- Portfolio Item Row -->
          <div class="row">
             <div class="col-md-6">
@@ -98,35 +94,87 @@ endif;
                   alt="">
             </div>
             <div class="col-md-6">
-               <h3 class="my-3">About This Item</h3>
+               <div class="col-">
+                  <h4>Crown Kerosene,
+                     <small>Gallon</small>
+                  </h4>
+                  <font size="1">
+                     <span class="fas fa-star"></span>
+                     <span class="fas fa-star"></span>
+                     <span class="fas fa-star"></span>
+                     <span class="fas fa-star-half-alt"></span>
+                     <span class="far fa-star"></span>
+                  </font>
+                  &nbsp;
+                  <a href="#" style="font-size: 80%;">5 Reviews</a>
+               </div>
+               <div class="col-"> &nbsp;
+               </div>
+               <div class="col-">
+                  <h4> <i class="fas fa-yen-sign"></i> 1500.00</h4>
+               </div>
+
+               <div class="col-12">
+                  <div class="row">
+                     <div class="form-group">
+                        <label class="radio-container vert-center">
+                           <input type="radio" name="prodQty" checked="checked">
+                           <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="form-check-label" for="exampleCheck1"
+                           style="padding-left: 30px;"><span>18L</span></label>
+                     </div>
+                     &nbsp;
+                     <div class="form-group">
+                        <label class="radio-container vert-center">
+                           <input type="radio" name="prodQty">
+                           <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="form-check-label" for="exampleCheck1"
+                           style="padding-left: 30px;"><span>36L</span></label>
+                     </div>
+                     &nbsp;
+                     <div class="form-group">
+                        <label class="radio-container vert-center">
+                           <input type="radio" name="prodQty">
+                           <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="form-check-label" for="exampleCheck1"
+                           style="padding-left: 30px;"><span>54L</span></label>
+                     </div>
+                     &nbsp;
+                     <div class="form-group">
+                        <label class="radio-container vert-center">
+                           <input type="radio" name="prodQty">
+                           <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="form-check-label" for="exampleCheck1" style="padding-left: 30px;"><span>Electric
+                              Pump</span></label>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-">
+                  <button class="btn btn-primary rounded"><i class="fas fa-truck"></i> Order Now</button>
+               </div>
+               <h4 class="my-3">About This Item</h4>
                <p>This Crown Kerosene, 1 qt, is an ideal choice for emergency preparedness and more. With it, you can be
                   ready for when you need to refuel important items. This K-1 grade kerosene is ideally suited for use
                   in kerosene-burning heaters, lanterns and stoves. It is also highly refined and easy to store. This
                   1-qt can of kerosene fuel is compact and simple to transport from place to place. A child-resistant
                   cap makes it safe to keep around small children. Buy one or multiple cans, depending on your needs.
                </p>
-               <h3 class="my-3">Highlights</h3>
+               <h4 class="my-3">Highlights</h4>
                <ul>
                   <li>Highly refined kerosene</li>
                   <li>K-1 grade fuel ideally suited for use in kerosene-burning heaters, lanterns and stoves</li>
                   <li>Easy-to-store and easy-to-transport qt-sized can</li>
                   <li>Child-resistant cap for family and pet safety</li>
                </ul>
-               <div class="col-md-12">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <button class="btn btn-primary rounded"><i class="fas fa-truck"></i> Order Now</button>
-                     </div>
-                     <div class="col-md-6 vert-center">
-                        <span class="badge badge-pill badge-light cursor float-right">
-                           <i class="fas fa-info-circle"></i>
-                           See More Info
-                        </span>
-                     </div>
-                  </div>
-               </div>
+               <span class="badge badge-pill badge-secondary cursor">
+                     <i class="fas fa-info-circle"></i>
+                     See More Info
+                  </span>
             </div>
-
          </div>
          <hr />
          <div class="col-md-12">
@@ -200,7 +248,7 @@ endif;
                         <font style="font-size: 80%;">2</font>
                      </div>
                   </div>
-                  
+
                   <div class="row">
                      <div class="col-2">2 Stars </div>
                      <div class="col-6 vert-center">
