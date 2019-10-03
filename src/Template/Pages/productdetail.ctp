@@ -1,32 +1,4 @@
-<?php
-/**
- * CakePHP(tm) : Rapid Development Framework (https://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
- *
- * Licensed under The MIT License
- * For full copyright and license information, please see the LICENSE.txt
- * Redistributions of files must retain the above copyright notice.
- *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
- * @link          https://cakephp.org CakePHP(tm) Project
- * @since         0.10.0
- * @license       https://opensource.org/licenses/mit-license.php MIT License
- */
-use Cake\Cache\Cache;
-use Cake\Core\Configure;
-use Cake\Core\Plugin;
-use Cake\Datasource\ConnectionManager;
-use Cake\Error\Debugger;
-use Cake\Http\Exception\NotFoundException;
-
-$this->layout = false;
-
-if (!Configure::read('debug')) :
-    throw new NotFoundException(
-        'Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode.'
-    );
-endif;
-?>
+<?php $this->layout = false; ?>
 <!DOCTYPE html>
 <html>
 
@@ -36,41 +8,10 @@ endif;
    <title>
       Product Detail
    </title>
-
-   <?= $this->Html->meta('icon') ?>
-
-   <?= $this->Html->css("bootstrap.min.css"); ?>
-   <?= $this->Html->css("fontawesome-free/css/all.min.css"); ?>
-   <?= $this->Html->css("simple-line-icons/css/simple-line-icons.css"); ?>
-   <?= $this->Html->css("https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"); ?>
-   <?= $this->Html->css("landing-page.css"); ?>
-   <?= $this->Html->css('style.css') ?>
-
 </head>
 
 <body>
-   <nav class="navbar navbar-dark navbar-expand-lg bg-primary static-top">
-      <div class="container">
-         <a class="navbar-brand" href="#">Kerosene Ecommerce</a>
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="/"> <i class="fas fa-home"></i> Home</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fas fa-cogs"></i> Services</a>
-               </li>
-               <li class="nav-item active">
-                  <a class="nav-link" href="#"><i class="fas fa-burn"></i> Product</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fas fa-mobile-alt"></i> Contact Us</a>
-               </li>
-            </ul>
-         </div>
-         <a class="btn btn-primary btn-lg rounded" href="#"><i class="fas fa-sign-in-alt"></i> Sign In</a>
-      </div>
-   </nav>
+   <?= $this->element('header') ?>
 
    <!-- Icons Grid -->
    <section class="">
@@ -171,9 +112,9 @@ endif;
                   <li>Child-resistant cap for family and pet safety</li>
                </ul>
                <span class="badge badge-pill badge-secondary cursor">
-                     <i class="fas fa-info-circle"></i>
-                     See More Info
-                  </span>
+                  <i class="fas fa-info-circle"></i>
+                  See More Info
+               </span>
             </div>
          </div>
          <hr />
@@ -316,62 +257,8 @@ endif;
       <!-- /.container -->
    </section>
 
-   <section class="features-icons text-center">
-      <div class="container">
-         <div class="row">
-            &nbsp;
-         </div>
-      </div>
-   </section>
-   <!-- Footer -->
-   <footer class="footer bg-light">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-               <ul class="list-inline mb-2">
-                  <li class="list-inline-item">
-                     <a href="#">About</a>
-                  </li>
-                  <li class="list-inline-item">&sdot;</li>
-                  <li class="list-inline-item">
-                     <a href="#">Contact</a>
-                  </li>
-                  <li class="list-inline-item">&sdot;</li>
-                  <li class="list-inline-item">
-                     <a href="#">Terms of Use</a>
-                  </li>
-                  <li class="list-inline-item">&sdot;</li>
-                  <li class="list-inline-item">
-                     <a href="#">Privacy Policy</a>
-                  </li>
-               </ul>
-               <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
-            </div>
-            <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-               <ul class="list-inline mb-0">
-                  <li class="list-inline-item mr-3">
-                     <a href="#">
-                        <i class="fab fa-facebook fa-2x fa-fw"></i>
-                     </a>
-                  </li>
-                  <li class="list-inline-item mr-3">
-                     <a href="#">
-                        <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-                     </a>
-                  </li>
-                  <li class="list-inline-item">
-                     <a href="#">
-                        <i class="fab fa-instagram fa-2x fa-fw"></i>
-                     </a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </div>
-   </footer>
-   <?= $this->Html->script("jquery.min.js"); ?>
-   <?= $this->Html->script("bootstrap.bundle.min.js"); ?>
-   <?= $this->Html->script("scripts/register.js"); ?>
+   <?= $this->element('footer') ?>
 </body>
+
 
 </html>
