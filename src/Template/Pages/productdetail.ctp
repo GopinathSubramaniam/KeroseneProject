@@ -54,13 +54,13 @@ endif;
          <a class="navbar-brand" href="#">Kerosene Ecommerce</a>
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-               <li class="nav-item active">
+               <li class="nav-item">
                   <a class="nav-link" href="/"> <i class="fas fa-home"></i> Home</a>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="#"><i class="fas fa-cogs"></i> Services</a>
                </li>
-               <li class="nav-item">
+               <li class="nav-item active">
                   <a class="nav-link" href="#"><i class="fas fa-burn"></i> Product</a>
                </li>
                <li class="nav-item">
