@@ -107,3 +107,7 @@ a {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+.btn-border{
+  border: 2px solid;
+}

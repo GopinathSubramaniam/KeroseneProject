@@ -66,7 +66,7 @@ endif;
         </li>
       </ul>
     </div>
-    <a class="btn btn-primary btn-lg rounded" href="#"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+    <a class="btn btn-primary btn-lg rounded btn-border" href="#"><i class="fas fa-sign-in-alt"></i> Sign In</a>
   </div>
 </nav>
 
