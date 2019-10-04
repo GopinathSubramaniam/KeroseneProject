@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d4008949e574f17bb5794def74e28b1",
+    "content-hash": "62a5fd17d7ddeb956c449c9a9f2d27c6",
     "packages": [
         {
             "name": "aura/intl",
@@ -298,16 +298,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Holt59/cakephp3-bootstrap-helpers.git",
-                "reference": "3e64e1537a0bc60e8818b24270c6ba683c155a14"
+                "reference": "a0d44df111dc227e2ffb422e55f7b9e91a618a1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Holt59/cakephp3-bootstrap-helpers/zipball/3e64e1537a0bc60e8818b24270c6ba683c155a14",
-                "reference": "3e64e1537a0bc60e8818b24270c6ba683c155a14",
+                "url": "https://api.github.com/repos/Holt59/cakephp3-bootstrap-helpers/zipball/a0d44df111dc227e2ffb422e55f7b9e91a618a1c",
+                "reference": "a0d44df111dc227e2ffb422e55f7b9e91a618a1c",
                 "shasum": ""
             },
             "require": {
-                "cakephp/cakephp": ">=3.5.0",
+                "cakephp/cakephp": ">=3.7.0",
                 "php": ">=5.5.9"
             },
             "require-dev": {
@@ -332,7 +332,7 @@
                 "bootstrap",
                 "cakephp"
             ],
-            "time": "2019-08-12T11:52:46+00:00"
+            "time": "2019-10-02T14:11:59+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
