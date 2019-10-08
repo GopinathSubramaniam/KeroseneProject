@@ -13,46 +13,57 @@
 
 <body>
    <?= $this->element('header') ?>
-   <!-- Masthead -->
-   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-         <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-         </ol>
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <img class="d-block w-100" src="/img/11.jpg" alt="First slide">
-               <div class="carousel-caption d-none d-md-block">
-               <h5>Nice Kerosene</h5>
-               <p>Build a landing page for your business or project and generate more leads!</p>
-            </div>
-            </div>
-            <div class="carousel-item">
-               <img class="d-block w-100" src="/img/21.jpg" alt="Second slide">
-               <div class="carousel-caption d-none d-md-block">
-               <h5>Good Kerosene</h5>
-               <p>Build a landing page for your business or project and generate more leads!</p>
-            </div>
-            </div>
-            <div class="carousel-item">
-               <img class="d-block w-100" src="/img/41.jpg" alt="Third slide">
-               <div class="carousel-caption d-none d-md-block">
-               <h5>Best Kerosene</h5>
-               <p>Build a landing page for your business or project and generate more leads!</p>
+     <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <div class="mask flex-center">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-md-7 col-12 order-md-1 order-2">
+                  <h4>Present your <br>
+                     awesome product</h4>
+                  <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
+                     necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
+                  <a href="#">BUY NOW</a> </div>
+                  <div class="col-md-5 col-12 order-md-2 order-1"><img src="img/all.png" class="mx-auto" alt="slide"></div>
+               </div>
             </div>
             </div>
          </div>
-         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-         </a>
-         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-         </a>
+         <div class="carousel-item">
+            <div class="mask flex-center">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-md-7 col-12 order-md-1 order-2">
+                  <h4>Present your <br>
+                     awesome product</h4>
+                  <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
+                     necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
+                  <a href="#">BUY NOW</a> </div>
+                  <div class="col-md-5 col-12 order-md-2 order-1"><img src="img/all12.png" class="mx-auto" alt="slide"></div>
+               </div>
+            </div>
+            </div>
+         </div>
+         <div class="carousel-item">
+            <div class="mask flex-center">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-md-7 col-12 order-md-1 order-2">
+                  <h4>Present your <br>
+                     awesome product</h4>
+                  <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
+                     necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
+                  <a href="#">BUY NOW</a> </div>
+                  <div class="col-md-5 col-12 order-md-2 order-1"><img src="img/42273.png" class="mx-auto" alt="slide"></div>
+               </div>
+            </div>
+            </div>
          </div>
       </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+      <!--slide end--> 
+
    <!-- Icons Grid -->
    <section class="features-icons bg-light text-center">
       <div class="container">
@@ -181,6 +192,11 @@
    </section>
 
    <?= $this->element('footer') ?>
+   <script>
+      $('#myCarousel').carousel({
+         interval: 3000,
+      })
+   </script>
 </body>
 
 </html>

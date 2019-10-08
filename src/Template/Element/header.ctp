@@ -1,5 +1,7 @@
 <?= $this->Html->meta('icon') ?>
 <?= $this->Html->css("bootstrap.min.css"); ?>
+<?= $this->Html->css("animate.css"); ?>
+<?= $this->Html->css("custom.css"); ?>
 <?= $this->Html->css("fontawesome-free/css/all.min.css"); ?>
 <?= $this->Html->css("simple-line-icons/css/simple-line-icons.css"); ?>
 <?= $this->Html->css("https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"); ?>
