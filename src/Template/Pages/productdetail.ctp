@@ -95,7 +95,7 @@
                   </div>
                </div>
                <div class="col-">
-                  <button class="btn btn-primary rounded"><i class="fas fa-truck"></i> Order Now</button>
+                  <button class="btn btn-primary btn-lg rounded"><i class="fas fa-truck"></i> Order Now</button>
                </div>
                <h4 class="my-3">About This Item</h4>
                <p>This Crown Kerosene, 1 qt, is an ideal choice for emergency preparedness and more. With it, you can be
@@ -225,7 +225,7 @@
          </div>
          <hr />
          <div class="col-md-12">
-            <p>5 of 5 Reviews</p>
+            <p style="color: #9c9c9c;">5 of 5 Reviews</p>
             <div>
                <p>It is a good product</p>
                <small>Gopinath, Nov 03, 2019</small>

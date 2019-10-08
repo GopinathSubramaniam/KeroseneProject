@@ -73,7 +73,7 @@ endif;
    </nav>
 
    <!-- Icons Grid -->
-   <section class="features-icons">
+   <section style="padding-top: 2rem;">
       <div class="container">
          <div class="row">
             <div class="col-lg-3">
@@ -83,6 +83,7 @@ endif;
                <div class="card" style="width: 30rem;">
                   <div class="card-body">
                      <h3 class="card-subtitle mb-2 text-muted text-center">Register</h3>
+                     <br>
                      <form action="#" id="registerForm">
                         <div class="form-group">
                            <!-- <label for="exampleInputEmail1">Email address</label> -->
@@ -92,7 +93,7 @@ endif;
                                     <i class="fas fa-envelope"></i>
                                  </span>
                               </div>
-                              <input type="email" class="form-control radius-0" id="email" name="email"
+                              <input type="email" class="form-control form-control-lg radius-0" id="email" name="email"
                                  placeholder="Email" aria-describedby="inputGroupPrepend" required>
                            </div>
                         </div>
@@ -104,7 +105,7 @@ endif;
                                     <i class="fas fa-user"></i>
                                  </span>
                               </div>
-                              <input type="text" class="form-control radius-0" id="name" name="name" placeholder="Name"
+                              <input type="text" class="form-control form-control-lg radius-0" id="name" name="name" placeholder="Name"
                                  aria-describedby="inputGroupPrepend" required>
                            </div>
                         </div>
@@ -116,7 +117,7 @@ endif;
                                     <i class="fas fa-mobile-alt"></i>
                                  </span>
                               </div>
-                              <input type="text" class="form-control radius-0" id="mobile" name="mobile"
+                              <input type="text" class="form-control form-control-lg radius-0" id="mobile" name="mobile"
                                  placeholder="Mobile" aria-describedby="inputGroupPrepend" required>
                            </div>
                         </div>
@@ -128,7 +129,7 @@ endif;
                                     <i class="fas fa-key"></i>
                                  </span>
                               </div>
-                              <input type="password" class="form-control radius-0" id="password" name="password"
+                              <input type="password" class="form-control form-control-lg radius-0" id="password" name="password"
                                  placeholder="Password" aria-describedby="inputGroupPrepend" required>
                            </div>
                         </div>
@@ -140,7 +141,7 @@ endif;
                                     <i class="fas fa-lock"></i>
                                  </span>
                               </div>
-                              <input type="password" class="form-control radius-0" id="confirmPassword"
+                              <input type="password" class="form-control form-control-lg radius-0" id="confirmPassword"
                                  name="confirmPassword" placeholder="Confirm Password"
                                  aria-describedby="inputGroupPrepend" required>
                            </div>
@@ -153,9 +154,14 @@ endif;
                            <label class="form-check-label" for="exampleCheck1" style="padding-left: 30px;"><a href="#"
                                  style="text-decoration: underline;">Agree Terms And Conditions</a></label>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block radius-0"><i
+                        <br>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block rounded"><i
                               class="fas fa-user-plus"></i> Register</button>
                      </form>
+                     <br>
+                     <div align="center">
+                        <a href="/" class="btn btn-outline-primary rounded">Already have an account</a>
+                     </div>
                   </div>
                </div>
             </div>

@@ -4,16 +4,13 @@ namespace App\Model\Entity;
 use Cake\ORM\Entity;
 
 /**
- * User Entity
+ * Product Entity
  *
  * @property int $id
- * @property string $name
- * @property string $email
- * @property string $mobile
- * @property string $state
- * @property string $country
+ * @property string|null $name
+ * @property string|null $price
  */
-class User extends Entity
+class Product extends Entity
 {
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
@@ -26,9 +23,6 @@ class User extends Entity
      */
     protected $_accessible = [
         'name' => true,
-        'email' => true,
-        'mobile' => true,
-        'state' => true,
-        'country' => true
+        'price' => true
     ];
 }

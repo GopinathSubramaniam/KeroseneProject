@@ -1,5 +1,5 @@
-var AppBase = function(){
-   
+var AppBase = function () {
+
 }
 
 var App = new AppBase();
