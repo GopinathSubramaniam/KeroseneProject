@@ -14,31 +14,45 @@
 <body>
    <?= $this->element('header') ?>
    <!-- Masthead -->
-   <header class="masthead text-white text-center">
-      <div class="overlay"></div>
-      <div class="container">
-         <div class="row">
-            <div class="col-xl-9 mx-auto">
-               <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img class="d-block w-100" src="/img/11.jpg" alt="First slide">
+               <div class="carousel-caption d-none d-md-block">
+               <h5>Nice Kerosene</h5>
+               <p>Build a landing page for your business or project and generate more leads!</p>
             </div>
-            <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-               <form>
-                  <div class="form-row">
-                     <div class="col-12 col-md-9 mb-2 mb-md-0">
-                        <input type="email" class="form-control form-control-lg"
-                           placeholder="Enter your email to purchase">
-                     </div>
-                     <div class="col-12 col-md-3">
-                        <a href="/home/register" class="btn btn-block rounded btn-lg btn-primary"><i
-                              class="fas fa-user-plus"></i> Sign up!</a>
-                     </div>
-                  </div>
-               </form>
+            </div>
+            <div class="carousel-item">
+               <img class="d-block w-100" src="/img/21.jpg" alt="Second slide">
+               <div class="carousel-caption d-none d-md-block">
+               <h5>Good Kerosene</h5>
+               <p>Build a landing page for your business or project and generate more leads!</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+               <img class="d-block w-100" src="/img/41.jpg" alt="Third slide">
+               <div class="carousel-caption d-none d-md-block">
+               <h5>Best Kerosene</h5>
+               <p>Build a landing page for your business or project and generate more leads!</p>
+            </div>
             </div>
          </div>
+         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+         </a>
+         </div>
       </div>
-   </header>
-
    <!-- Icons Grid -->
    <section class="features-icons bg-light text-center">
       <div class="container">
