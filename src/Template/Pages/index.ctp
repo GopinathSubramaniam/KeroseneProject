@@ -24,7 +24,7 @@
                      awesome product</h4>
                   <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
                      necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
-                  <a href="#">BUY NOW</a> </div>
+                  <a href="#" class="rounded">BUY NOW</a> </div>
                   <div class="col-md-5 col-12 order-md-2 order-1"><img src="img/all.png" class="mx-auto" alt="slide"></div>
                </div>
             </div>
@@ -39,7 +39,7 @@
                      awesome product</h4>
                   <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
                      necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
-                  <a href="#">BUY NOW</a> </div>
+                  <a href="#" class="rounded">BUY NOW</a> </div>
                   <div class="col-md-5 col-12 order-md-2 order-1"><img src="img/all12.png" class="mx-auto" alt="slide"></div>
                </div>
             </div>
@@ -54,7 +54,7 @@
                      awesome product</h4>
                   <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
                      necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
-                  <a href="#">BUY NOW</a> </div>
+                  <a href="#" class="rounded">BUY NOW</a> </div>
                   <div class="col-md-5 col-12 order-md-2 order-1"><img src="img/42273.png" class="mx-auto" alt="slide"></div>
                </div>
             </div>

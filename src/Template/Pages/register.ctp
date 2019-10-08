@@ -36,42 +36,11 @@ endif;
    <title>
       Register
    </title>
-
-   <?= $this->Html->meta('icon') ?>
-
-   <?= $this->Html->css("bootstrap.min.css"); ?>
-   <?= $this->Html->css("fontawesome-free/css/all.min.css"); ?>
-   <?= $this->Html->css("simple-line-icons/css/simple-line-icons.css"); ?>
-   <?= $this->Html->css("https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"); ?>
-   <?= $this->Html->css("landing-page.css"); ?>
-   <?= $this->Html->css('style.css') ?>
-
 </head>
 
 <body>
-   <nav class="navbar navbar-dark navbar-expand-lg bg-primary static-top">
-      <div class="container">
-         <a class="navbar-brand" href="#">Kerosene Ecommerce</a>
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item active">
-                  <a class="nav-link" href="/"> <i class="fas fa-home"></i> Home</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fas fa-cogs"></i> Services</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fas fa-burn"></i> Product</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fas fa-mobile-alt"></i> Contact Us</a>
-               </li>
-            </ul>
-         </div>
-         <a class="btn btn-primary btn-lg rounded" href="#"><i class="fas fa-sign-in-alt"></i> Sign In</a>
-      </div>
-   </nav>
 
+   <?= $this->element('header') ?>
    <!-- Icons Grid -->
    <section style="padding-top: 2rem;">
       <div class="container">
@@ -80,7 +49,7 @@ endif;
                &nbsp;
             </div>
             <div class="col-lg-6">
-               <div class="card" style="width: 30rem;">
+               <div class="card">
                   <div class="card-body">
                      <h3 class="card-subtitle mb-2 text-muted text-center">Register</h3>
                      <br>
@@ -105,8 +74,8 @@ endif;
                                     <i class="fas fa-user"></i>
                                  </span>
                               </div>
-                              <input type="text" class="form-control form-control-lg radius-0" id="name" name="name" placeholder="Name"
-                                 aria-describedby="inputGroupPrepend" required>
+                              <input type="text" class="form-control form-control-lg radius-0" id="name" name="name"
+                                 placeholder="Name" aria-describedby="inputGroupPrepend" required>
                            </div>
                         </div>
                         <div class="form-group">
@@ -129,8 +98,8 @@ endif;
                                     <i class="fas fa-key"></i>
                                  </span>
                               </div>
-                              <input type="password" class="form-control form-control-lg radius-0" id="password" name="password"
-                                 placeholder="Password" aria-describedby="inputGroupPrepend" required>
+                              <input type="password" class="form-control form-control-lg radius-0" id="password"
+                                 name="password" placeholder="Password" aria-describedby="inputGroupPrepend" required>
                            </div>
                         </div>
                         <div class="form-group">
@@ -158,7 +127,7 @@ endif;
                         <button type="submit" class="btn btn-primary btn-lg btn-block rounded"><i
                               class="fas fa-user-plus"></i> Register</button>
                      </form>
-                     <br>
+                     <hr>
                      <div align="center">
                         <a href="/" class="btn btn-outline-primary rounded">Already have an account</a>
                      </div>
@@ -180,51 +149,7 @@ endif;
       </div>
    </section>
    <!-- Footer -->
-   <footer class="footer bg-light">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-               <ul class="list-inline mb-2">
-                  <li class="list-inline-item">
-                     <a href="#">About</a>
-                  </li>
-                  <li class="list-inline-item">&sdot;</li>
-                  <li class="list-inline-item">
-                     <a href="#">Contact</a>
-                  </li>
-                  <li class="list-inline-item">&sdot;</li>
-                  <li class="list-inline-item">
-                     <a href="#">Terms of Use</a>
-                  </li>
-                  <li class="list-inline-item">&sdot;</li>
-                  <li class="list-inline-item">
-                     <a href="#">Privacy Policy</a>
-                  </li>
-               </ul>
-               <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
-            </div>
-            <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-               <ul class="list-inline mb-0">
-                  <li class="list-inline-item mr-3">
-                     <a href="#">
-                        <i class="fab fa-facebook fa-2x fa-fw"></i>
-                     </a>
-                  </li>
-                  <li class="list-inline-item mr-3">
-                     <a href="#">
-                        <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-                     </a>
-                  </li>
-                  <li class="list-inline-item">
-                     <a href="#">
-                        <i class="fab fa-instagram fa-2x fa-fw"></i>
-                     </a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </div>
-   </footer>
+   <?= $this->element('footer') ?>
    <?= $this->Html->script("jquery.min.js"); ?>
    <?= $this->Html->script("bootstrap.bundle.min.js"); ?>
    <?= $this->Html->script("scripts/register.js"); ?>

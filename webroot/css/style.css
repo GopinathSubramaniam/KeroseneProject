@@ -3,7 +3,7 @@
 }
 
 
-.radius-0{
+.radius-0 {
     border-radius: 0px
 }
 
@@ -21,19 +21,19 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
-  
-  /* Hide the browser's default checkbox */
-  .chkbx-container input {
+}
+
+/* Hide the browser's default checkbox */
+.chkbx-container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
     height: 0;
     width: 0;
-  }
-  
-  /* Create a custom checkbox */
-  .checkmark {
+}
+
+/* Create a custom checkbox */
+.checkmark {
     position: absolute;
     top: 0;
     left: 0;
@@ -41,32 +41,32 @@
     width: 25px;
     background-color: #eee;
     border: solid 1px #cbcbcb;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .chkbx-container:hover input ~ .checkmark {
+}
+
+/* On mouse-over, add a grey background color */
+.chkbx-container:hover input~.checkmark {
     background-color: #ccc;
-  }
-  
-  /* When the checkbox is checked, add a blue background */
-  .chkbx-container input:checked ~ .checkmark {
-    background-color: #1869bf;
-  }
-  
-  /* Create the checkmark/indicator (hidden when not checked) */
-  .checkmark:after {
+}
+
+/* When the checkbox is checked, add a blue background */
+.chkbx-container input:checked~.checkmark {
+    background-color: #007bff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
     content: "";
     position: absolute;
     display: none;
-  }
-  
-  /* Show the checkmark when checked */
-  .chkbx-container input:checked ~ .checkmark:after {
+}
+
+/* Show the checkmark when checked */
+.chkbx-container input:checked~.checkmark:after {
     display: block;
-  }
-  
-  /* Style the checkmark/indicator */
-  .chkbx-container .checkmark:after {
+}
+
+/* Style the checkmark/indicator */
+.chkbx-container .checkmark:after {
     left: 8px;
     top: 4px;
     width: 7px;
@@ -76,117 +76,128 @@
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-  }
+}
 
 /** Checkbox End **/
 
 
 /** Radio Start **/
 .radio-checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-  border: solid 1px #cbcbcb;
-  border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: solid 1px #cbcbcb;
+    border-radius: 50%;
 }
+
 /* The container */
 .radio-container {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
 }
 
 /* Hide the browser's default radio */
 .radio-container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
 }
 
 /* On mouse-over, add a grey background color */
-.radio-container:hover input ~ .radio-checkmark {
-  background-color: #ccc;
-  border-radius: 50%;
+.radio-container:hover input~.radio-checkmark {
+    background-color: #ccc;
+    border-radius: 50%;
 }
 
 /* When the radio is checked, add a blue background */
-.radio-container input:checked ~ .radio-checkmark {
-  background-color: #1869bf;
-  border-radius: 50%;
+.radio-container input:checked~.radio-checkmark {
+    background-color: #007bff;
+    border-radius: 50%;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .radio-checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
+    content: "";
+    position: absolute;
+    display: none;
 }
 
 /* Show the checkmark when checked */
-.radio-container input:checked ~ .radio-checkmark:after {
-  display: block;
+.radio-container input:checked~.radio-checkmark:after {
+    display: block;
 }
 
 /* Style the checkmark/indicator */
 .radio-container .radio-checkmark:after {
-  left: 8px;
-  top: 4px;
-  width: 7px;
-  height: 14px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+    left: 8px;
+    top: 4px;
+    width: 7px;
+    height: 14px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 /** Radio End **/
 
-.bg-primary {
-  background-color: #1869bf !important;
+/* .bg-primary {
+    background-color: #1869bf !important;
+} */
+
+
+/* .theme-bg-color {
+    background-color: #1869bf !important;
+    color: white;
+} */
+
+.cursor {
+    cursor: pointer;
 }
 
+/* a {
+    color: #1869bf;
+} */
 
-.theme-bg-color{
-  background-color: #1869bf !important;
-  color: white;
-}
-
-.cursor{
-  cursor: pointer;
-}
-
-a {
-  color: #1869bf;
-}
-
-.btn-primary{
-  background-color: #1869bf;
+/* .btn-primary {
+    background-color: #1869bf;
     border-color: #1869bf;
 }
-
-.vert-center{
-  margin-top: auto;
-  margin-bottom: auto;
+ */
+.vert-center {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.btn-border{
-  border: 1.5px solid;
+.btn-border {
+    border: 1.5px solid;
 }
 
-.progress-bar{
-  background-color: #1869bf;
+/* .progress-bar {
+    background-color: #1869bf;
+} */
+
+.btn-orange {
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+    color: white;
+}
+
+.btn-orange:hover {
+    color: white;
 }

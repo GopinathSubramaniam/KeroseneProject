@@ -7,7 +7,7 @@
 <?= $this->Html->css("https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"); ?>
 <?= $this->Html->css("landing-page.css"); ?>
 <?= $this->Html->css('style.css') ?>
-<nav class="navbar navbar-dark navbar-expand-lg bg-primary static-top">
+<nav class="navbar navbar-light navbar-expand-lg bg-light static-top">
    <div class="container">
       <a class="navbar-brand" href="#">Kerosene Ecommerce</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -26,14 +26,19 @@
             </li>
          </ul>
       </div>
-      <a class="btn btn-primary btn-lg rounded btn-border" data-toggle="modal" data-target="#exampleModal" href="#"><i
+
+
+      <a class="btn btn-primary rounded" data-toggle="modal" data-target="#exampleModal" href="#"><i
             class="fas fa-sign-in-alt"></i> Sign In</a>
+      &nbsp;
+      <a class="btn btn-orange rounded" href="/home/register"><i
+            class="fas fa-user-plus"></i> Sign Up</a>
    </div>
    <!-- Modal -->
    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
       aria-hidden="true">
       <div class="modal-dialog container" role="document">
-         <div class="modal-content container radius-0">
+         <div class="modal-content radius-0">
             <div class="modal-footer">
                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">
