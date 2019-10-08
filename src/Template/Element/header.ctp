@@ -32,14 +32,12 @@
       aria-hidden="true">
       <div class="modal-dialog container" role="document">
          <div class="modal-content container radius-0">
-            <div class="modal-header">
-               <h4 class="modal-title" id="exampleModalLabel"> Sign In</h4>
-               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-               </button>
-            </div>
             <div class="modal-body">
-            <br>
+               <br>
+               <div align="center">
+                  <h4 class="modal-title" id="exampleModalLabel"> Sign In</h4>
+               </div>
+               <br />
                <form action="#" id="registerForm">
                   <div class="form-group">
                      <!-- <label for="exampleInputEmail1">Email address</label> -->
