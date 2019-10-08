@@ -24,6 +24,61 @@
             </li>
          </ul>
       </div>
-      <a class="btn btn-primary btn-lg rounded btn-border" href="#"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+      <a class="btn btn-primary btn-lg rounded btn-border" data-toggle="modal" data-target="#exampleModal" href="#"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+   </div>
+   <!-- Modal -->
+   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog container" role="document">
+      <div class="modal-content container radius-0">
+         <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel"> Sign In</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+         </button>
+         </div>
+         <div class="modal-body">
+         <form action="#" id="registerForm">
+                        <div class="form-group">
+                           <!-- <label for="exampleInputEmail1">Email address</label> -->
+                           <div class="input-group">
+                              <div class="input-group-prepend">
+                                 <span class="input-group-text radius-0" id="inputGroupPrepend">
+                                    <i class="fas fa-envelope"></i>
+                                 </span>
+                              </div>
+                              <input type="email" class="form-control form-control-lg radius-0" id="email" name="email"
+                                 placeholder="Email" aria-describedby="inputGroupPrepend" required>
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <!-- <label for="exampleInputEmail1">Email address</label> -->
+                           <div class="input-group">
+                              <div class="input-group-prepend">
+                                 <span class="input-group-text radius-0" id="inputGroupPrepend">
+                                    <i class="fas fa-key"></i>
+                                 </span>
+                              </div>
+                              <input type="password" class="form-control form-control-lg radius-0" id="password" name="password"
+                                 placeholder="Password" aria-describedby="inputGroupPrepend" required>
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <label class="chkbx-container">
+                              <input type="checkbox" checked="checked">
+                              <span class="checkmark"></span>
+                           </label>
+                           <label class="form-check-label" for="exampleCheck1" style="padding-left: 30px;"><a href="#"
+                                 style="text-decoration: underline;">Remember Password</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block rounded"><i
+                              class="fas fa-sign-in-alt"></i> Login</button>
+                     </form>
+                     <hr>
+                     <div align="center">
+                        <h5>New to Keresone Ecommerce ?</h5>
+                        <a href="/home/register" class="btn btn-outline-primary rounded">Create new account</a>
+                     </div>
+      </div>
+   </div>
    </div>
 </nav>
