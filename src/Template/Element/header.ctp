@@ -32,8 +32,13 @@
       aria-hidden="true">
       <div class="modal-dialog container" role="document">
          <div class="modal-content container radius-0">
+            <div class="modal-footer">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">
+                     <fa class="fas fa-times fa-1x"></fa>
+                  </span>
+               </button></div>
             <div class="modal-body">
-               <br>
                <div align="center">
                   <h4 class="modal-title" id="exampleModalLabel"> Sign In</h4>
                </div>
